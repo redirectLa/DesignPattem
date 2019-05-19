@@ -5,11 +5,20 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.工厂模式", "01.工厂模式", "{0E47378A-0B27-4E7E-8D6F-1014416B347C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattem", "FactoryPattem\FactoryPattem.csproj", "{F7DCE650-43F0-45D1-A21C-425B48210105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{F7DCE650-43F0-45D1-A21C-425B48210105}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.策略模式", "02.策略模式", "{2D7FD31D-692C-45EC-8417-57ADA0B45C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{7763FE88-3E17-436B-A1F4-ADCEF933693A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{7763FE88-3E17-436B-A1F4-ADCEF933693A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{2116D413-F868-46BA-9CCF-B3E80948174D}"
+	ProjectSection(SolutionItems) = preProject
+		UML类图.doc = UML类图.doc
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.装饰模式", "03.装饰模式", "{E9289725-ADE4-40C5-AAF6-3337BDCE64AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{BAC8AF17-3D39-476A-9AF1-23D46347BD10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +34,10 @@ Global
 		{7763FE88-3E17-436B-A1F4-ADCEF933693A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7763FE88-3E17-436B-A1F4-ADCEF933693A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7763FE88-3E17-436B-A1F4-ADCEF933693A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F7DCE650-43F0-45D1-A21C-425B48210105} = {0E47378A-0B27-4E7E-8D6F-1014416B347C}
 		{7763FE88-3E17-436B-A1F4-ADCEF933693A} = {2D7FD31D-692C-45EC-8417-57ADA0B45C2E}
+		{BAC8AF17-3D39-476A-9AF1-23D46347BD10} = {E9289725-ADE4-40C5-AAF6-3337BDCE64AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}

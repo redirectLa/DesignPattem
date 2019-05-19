@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryPattem
+namespace FactoryPattern
 {
     /// <summary>
     /// 计算器操作简单工厂
