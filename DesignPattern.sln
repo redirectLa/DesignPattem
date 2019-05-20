@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.工厂模式", "01.工厂模式", "{0E47378A-0B27-4E7E-8D6F-1014416B347C}"
+	ProjectSection(SolutionItems) = preProject
+		UML类图.doc = UML类图.doc
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{F7DCE650-43F0-45D1-A21C-425B48210105}"
 EndProject
@@ -11,14 +14,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.策略模式", "02.策�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{7763FE88-3E17-436B-A1F4-ADCEF933693A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{2116D413-F868-46BA-9CCF-B3E80948174D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.基础概念", "00.基础概念", "{2116D413-F868-46BA-9CCF-B3E80948174D}"
 	ProjectSection(SolutionItems) = preProject
 		UML类图.doc = UML类图.doc
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.装饰模式", "03.装饰模式", "{E9289725-ADE4-40C5-AAF6-3337BDCE64AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{BAC8AF17-3D39-476A-9AF1-23D46347BD10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{BAC8AF17-3D39-476A-9AF1-23D46347BD10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.代理模式", "04.代理模式", "{B77D6F80-AE62-4D12-9C85-32EC68E44547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.工厂方法", "05.工厂方法", "{2E8A4EA4-DB10-45C4-8A01-1B30CF092870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{7837D53B-92FC-4958-8120-9A6B6340C0A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.原型模式", "06.原型模式", "{498D0BEF-AE5C-4357-B098-A6FF81323F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.模板方法", "07.模板方法", "{68C1475D-881D-420B-A5EE-A243136DFBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{A075B06F-A109-44F3-9481-C05890557F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.外观模式", "08.外观模式", "{0E240CD9-39CD-43ED-8015-5E63F8B094D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.建造者模式", "09.建造者模式", "{5A53EBCB-D768-4F2C-946F-A168A149EE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +65,30 @@ Global
 		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC8AF17-3D39-476A-9AF1-23D46347BD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7837D53B-92FC-4958-8120-9A6B6340C0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7837D53B-92FC-4958-8120-9A6B6340C0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7837D53B-92FC-4958-8120-9A6B6340C0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7837D53B-92FC-4958-8120-9A6B6340C0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A075B06F-A109-44F3-9481-C05890557F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A075B06F-A109-44F3-9481-C05890557F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A075B06F-A109-44F3-9481-C05890557F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A075B06F-A109-44F3-9481-C05890557F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +97,12 @@ Global
 		{F7DCE650-43F0-45D1-A21C-425B48210105} = {0E47378A-0B27-4E7E-8D6F-1014416B347C}
 		{7763FE88-3E17-436B-A1F4-ADCEF933693A} = {2D7FD31D-692C-45EC-8417-57ADA0B45C2E}
 		{BAC8AF17-3D39-476A-9AF1-23D46347BD10} = {E9289725-ADE4-40C5-AAF6-3337BDCE64AF}
+		{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B} = {B77D6F80-AE62-4D12-9C85-32EC68E44547}
+		{7837D53B-92FC-4958-8120-9A6B6340C0A4} = {2E8A4EA4-DB10-45C4-8A01-1B30CF092870}
+		{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844} = {498D0BEF-AE5C-4357-B098-A6FF81323F60}
+		{A075B06F-A109-44F3-9481-C05890557F9A} = {68C1475D-881D-420B-A5EE-A243136DFBCE}
+		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568} = {0E240CD9-39CD-43ED-8015-5E63F8B094D6}
+		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6} = {5A53EBCB-D768-4F2C-946F-A168A149EE0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
