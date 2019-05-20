@@ -22,7 +22,6 @@ namespace DecoratorPattern
                 d2.Operation();
 
 
-
                 Person xc = new Person("小菜");
 
                 Console.WriteLine("\n第一种装扮：");
