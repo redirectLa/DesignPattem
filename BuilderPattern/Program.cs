@@ -7,8 +7,8 @@ namespace BuilderPattern
         static void Main(string[] args)
         {
             //建造者模式:将一个复杂对象的构建和它的标识分离，使得同样的构建过程可以有不同的表示.
-            Facade facade = new Facade();
 
+            Facade facade = new Facade();
             facade.MethodA();
             facade.MethodB();
 
