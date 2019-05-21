@@ -25,27 +25,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "Decorat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.代理模式", "04.代理模式", "{B77D6F80-AE62-4D12-9C85-32EC68E44547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{2F57FFAC-D3A2-4935-8ECE-A4E996B9C43B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.工厂方法", "05.工厂方法", "{2E8A4EA4-DB10-45C4-8A01-1B30CF092870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{7837D53B-92FC-4958-8120-9A6B6340C0A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{7837D53B-92FC-4958-8120-9A6B6340C0A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.原型模式", "06.原型模式", "{498D0BEF-AE5C-4357-B098-A6FF81323F60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{51F53AF6-D6A1-4F17-B502-B5A6ACFC1844}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.模板方法", "07.模板方法", "{68C1475D-881D-420B-A5EE-A243136DFBCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{A075B06F-A109-44F3-9481-C05890557F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatePattern", "TemplatePattern\TemplatePattern.csproj", "{A075B06F-A109-44F3-9481-C05890557F9A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.外观模式", "08.外观模式", "{0E240CD9-39CD-43ED-8015-5E63F8B094D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{AE430953-F1A3-4F49-B1B5-BA87BB6C7568}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.建造者模式", "09.建造者模式", "{5A53EBCB-D768-4F2C-946F-A168A149EE0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.观察者模式", "10.观察者模式", "{979BCF86-78CD-48AC-A86E-84FC36A5BD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,10 @@ Global
 		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +111,7 @@ Global
 		{A075B06F-A109-44F3-9481-C05890557F9A} = {68C1475D-881D-420B-A5EE-A243136DFBCE}
 		{AE430953-F1A3-4F49-B1B5-BA87BB6C7568} = {0E240CD9-39CD-43ED-8015-5E63F8B094D6}
 		{7E8D09A8-BFB4-4A71-92CA-EE64B1CDDAA6} = {5A53EBCB-D768-4F2C-946F-A168A149EE0C}
+		{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD} = {979BCF86-78CD-48AC-A86E-84FC36A5BD29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
