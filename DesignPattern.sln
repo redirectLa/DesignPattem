@@ -49,9 +49,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.观察者模式", "10.�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{BC8DF14E-C478-4F9E-9C22-F83D0C068DCD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.抽象工厂", "11.抽象工厂", "{DC37B5BD-A271-41E5-847E-D65DB6C54645}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.抽象工厂模式", "11.抽象工厂模式", "{DC37B5BD-A271-41E5-847E-D65DB6C54645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{A644E47A-D842-49FE-A95C-A6DB93EFAC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{A644E47A-D842-49FE-A95C-A6DB93EFAC50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
