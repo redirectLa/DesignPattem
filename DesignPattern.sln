@@ -63,11 +63,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.备忘录模式", "14.备忘录模式", "{12DC96EB-D5F7-46A4-BDF8-F60143D1D264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{2774F113-698C-4E1E-A6E1-1C387397B15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{2774F113-698C-4E1E-A6E1-1C387397B15E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15.组合模式", "15.组合模式", "{1475C260-57EE-4320-823A-CE74BC8C6131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{6189213E-216C-401F-91DF-869157F9C5CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{6189213E-216C-401F-91DF-869157F9C5CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16.迭代器模式", "16.迭代器模式", "{513293B2-4FD0-4C05-9C35-104146016DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LteratorPattern", "LteratorPattern\LteratorPattern.csproj", "{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,10 @@ Global
 		{6189213E-216C-401F-91DF-869157F9C5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6189213E-216C-401F-91DF-869157F9C5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6189213E-216C-401F-91DF-869157F9C5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,7 @@ Global
 		{A3BFA5CF-E417-4B8F-BBA5-1D193FBAE558} = {E4586EBB-5F5B-4A91-B58C-1D6F4429F33F}
 		{2774F113-698C-4E1E-A6E1-1C387397B15E} = {12DC96EB-D5F7-46A4-BDF8-F60143D1D264}
 		{6189213E-216C-401F-91DF-869157F9C5CD} = {1475C260-57EE-4320-823A-CE74BC8C6131}
+		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56} = {513293B2-4FD0-4C05-9C35-104146016DE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
