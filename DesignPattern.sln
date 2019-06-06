@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19.命令模式", "19.命�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{14AD768E-4194-4591-8531-A28CA19C7282}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20.责任链模式", "20.责任链模式", "{83DD8629-7514-47C6-81A6-78919441703C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{46DC607E-5643-49E7-91CB-ACC64A65413C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +171,10 @@ Global
 		{14AD768E-4194-4591-8531-A28CA19C7282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14AD768E-4194-4591-8531-A28CA19C7282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14AD768E-4194-4591-8531-A28CA19C7282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +199,7 @@ Global
 		{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2} = {C6D49A6D-1559-4135-9E77-3E612E9D0F3B}
 		{82BC4637-0743-49F1-9578-653C5154A672} = {BDAD4CD4-D645-4BA2-8155-490D262EBCD9}
 		{14AD768E-4194-4591-8531-A28CA19C7282} = {2EEB5C3A-3EE3-407F-B098-A5E00BB848D9}
+		{46DC607E-5643-49E7-91CB-ACC64A65413C} = {83DD8629-7514-47C6-81A6-78919441703C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
