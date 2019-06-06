@@ -77,6 +77,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17.单例模式", "17.单�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18.桥接模式", "18.桥接模式", "{BDAD4CD4-D645-4BA2-8155-490D262EBCD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{82BC4637-0743-49F1-9578-653C5154A672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,10 @@ Global
 		{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BC4637-0743-49F1-9578-653C5154A672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BC4637-0743-49F1-9578-653C5154A672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BC4637-0743-49F1-9578-653C5154A672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BC4637-0743-49F1-9578-653C5154A672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +181,7 @@ Global
 		{6189213E-216C-401F-91DF-869157F9C5CD} = {1475C260-57EE-4320-823A-CE74BC8C6131}
 		{F26BC1E9-7C4B-48A8-BCC3-A864A7625B56} = {513293B2-4FD0-4C05-9C35-104146016DE8}
 		{2EA3EB74-AD8A-4505-92D1-0B0731B0CCA2} = {C6D49A6D-1559-4135-9E77-3E612E9D0F3B}
+		{82BC4637-0743-49F1-9578-653C5154A672} = {BDAD4CD4-D645-4BA2-8155-490D262EBCD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
