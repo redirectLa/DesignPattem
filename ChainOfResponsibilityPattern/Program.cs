@@ -27,7 +27,16 @@ namespace ChainOfResponsibilityPattern
 
             //注意事项：在 JAVA WEB 中遇到很多应用。
 
-
+            ConcreteHandler1 handler1 = new ConcreteHandler1();
+            ConcreteHandler2 handler2 = new ConcreteHandler2();
+            ConcreteHandler3 handler3 = new ConcreteHandler3();
+            handler2.SetSuccessor(handler3);
+            handler1.SetSuccessor(handler2);
+            int[] successors = new[] { 1, 3, 5, 7, 12, 15, 18, 22, 25 };
+            foreach (var request in successors)
+            {
+                handler1.HandlerRequest(request);
+            }
 
             Console.ReadLine();
         }
