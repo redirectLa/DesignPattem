@@ -83,11 +83,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePatt
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19.命令模式", "19.命令模式", "{2EEB5C3A-3EE3-407F-B098-A5E00BB848D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{14AD768E-4194-4591-8531-A28CA19C7282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{14AD768E-4194-4591-8531-A28CA19C7282}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20.责任链模式", "20.责任链模式", "{83DD8629-7514-47C6-81A6-78919441703C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{46DC607E-5643-49E7-91CB-ACC64A65413C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{46DC607E-5643-49E7-91CB-ACC64A65413C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21.中介者模式", "21.中介者模式", "{0BFA5B1C-07DA-4B9C-99DC-E475060E5140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{1B756D75-3DE9-4108-90D8-8741B1AB89A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,6 +179,10 @@ Global
 		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46DC607E-5643-49E7-91CB-ACC64A65413C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B756D75-3DE9-4108-90D8-8741B1AB89A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B756D75-3DE9-4108-90D8-8741B1AB89A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B756D75-3DE9-4108-90D8-8741B1AB89A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B756D75-3DE9-4108-90D8-8741B1AB89A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +208,7 @@ Global
 		{82BC4637-0743-49F1-9578-653C5154A672} = {BDAD4CD4-D645-4BA2-8155-490D262EBCD9}
 		{14AD768E-4194-4591-8531-A28CA19C7282} = {2EEB5C3A-3EE3-407F-B098-A5E00BB848D9}
 		{46DC607E-5643-49E7-91CB-ACC64A65413C} = {83DD8629-7514-47C6-81A6-78919441703C}
+		{1B756D75-3DE9-4108-90D8-8741B1AB89A1} = {0BFA5B1C-07DA-4B9C-99DC-E475060E5140}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DCADB79-3804-42BD-B147-13F432CEF2B3}
