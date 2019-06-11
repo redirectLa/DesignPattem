@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.基础概念", "00.基础概念", "{2116D413-F868-46BA-9CCF-B3E80948174D}"
 	ProjectSection(SolutionItems) = preProject
 		UML类图.doc = UML类图.doc
+		基本介绍.txt = 基本介绍.txt
 		委托和事件.txt = 委托和事件.txt
 	EndProjectSection
 EndProject
